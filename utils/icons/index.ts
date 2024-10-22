@@ -1,0 +1,10 @@
+export { default as ArrowRightIcon } from "./ArrowRightIcon";
+export { default as CallIcon } from "./CallbackIcon";
+export { default as FacebookIcon } from "./FacebookIcon";
+export { default as InstagramIcon } from "./InstagramIcon";
+export { default as LinkedinIcon } from "./LinkedinIcon";
+export { default as LocationIcon } from "./LocationIcon";
+export { default as MailIcon } from "./MailIcon";
+export { default as PhoneIcon } from "./PhoneIcon";
+export { default as XIcon } from "./XIcon";
+export { default as YoutubeIcon } from "./YoutubeIcon";
