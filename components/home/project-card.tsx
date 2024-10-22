@@ -17,7 +17,7 @@ const ProjectCard = async ({
   href,
   transitionDuration = 4,
   slide = true,
-  height = "20rem",
+  height = "25rem",
   tech = [],
 }: Props) => {
   return (

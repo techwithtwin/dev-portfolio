@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <Stack align="center" my="4rem" mx={marginX} gap="1rem">
+    <Stack align="center" mt="2rem" mb="4rem" mx={marginX} gap="1rem">
       <Heading>My Services</Heading>
       <SimpleGrid columns={{ base: 1, md: 3 }} gap={8}>
         {servicesData.map((service, i) => (
