@@ -1,5 +1,12 @@
-import { Button } from "@chakra-ui/react";
+import { Contact, Hero, Projects, Services } from "@/components/home";
 
 export default function Home() {
-  return <Button colorScheme="primary">It works</Button>;
+  return (
+    <>
+      <Hero />
+      <Services />
+      <Projects />
+      <Contact />
+    </>
+  );
 }
