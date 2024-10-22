@@ -13,7 +13,7 @@ import {
 
 const Contact = () => {
   return (
-    <Box bg="brand.black" color="brand.white" py="3rem">
+    <Box id="contact" bg="brand.black" color="brand.white" py="3rem">
       <Stack align="center" mx={marginX} gap={4}>
         <Heading>Contact Me</Heading>
         <Stack gap={6} align="center" mx="auto" minW="70%">

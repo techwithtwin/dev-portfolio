@@ -5,7 +5,7 @@ import { marginX } from "@/utils/constants";
 
 const Projects = () => {
   return (
-    <Stack align="center" mx={marginX} my="4rem" gap="1rem">
+    <Stack id="projects" align="center" mx={marginX} my="4rem" gap="1rem">
       <Heading> My Projects</Heading>
 
       <SimpleGrid columns={{ base: 1, md: 3 }} gap={8}>
@@ -13,6 +13,7 @@ const Projects = () => {
           <ProjectCard
             name={p.name}
             key={i}
+            href={p.href}
             image={p.image}
             tech={["nextjs"]}
           />

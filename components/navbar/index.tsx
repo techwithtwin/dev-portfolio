@@ -35,6 +35,8 @@ const Navbar = () => {
 
         <Button
           colorScheme="primary"
+          as="a"
+          href="/#contact"
           borderRadius="xl"
           rightIcon={<LuArrowRight />}
         >

@@ -4,7 +4,14 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <Stack align="center" mt="2rem" mb="4rem" mx={marginX} gap="1rem">
+    <Stack
+      id="services"
+      align="center"
+      mt="2rem"
+      mb="4rem"
+      mx={marginX}
+      gap="1rem"
+    >
       <Heading>My Services</Heading>
       <SimpleGrid columns={{ base: 1, md: 3 }} gap={8}>
         {servicesData.map((service, i) => (
@@ -17,6 +24,10 @@ const Services = () => {
             color="brand.white"
             p="2.5rem"
             borderRadius="md"
+            boxShadow="md"
+            _hover={{
+              bg: "gray.600",
+            }}
           >
             <Image
               src={service.icon}
@@ -55,5 +66,21 @@ const servicesData = [
     description:
       "I design beautiful user interfaces for your web and mobile applications",
     icon: "/illustration.webp",
+  },
+  {
+    title: "Branding",
+    description:
+      "I design beautiful user interfaces for your web and mobile applications",
+    icon: "/branding.svg",
+  },
+  {
+    title: "Consultation",
+    description: "Consultation services for your business",
+    icon: "/consultation.svg",
+  },
+  {
+    title: "Photography",
+    description: "Photography services for your events",
+    icon: "/photography.svg",
   },
 ];
