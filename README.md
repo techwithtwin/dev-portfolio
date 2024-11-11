@@ -2,7 +2,7 @@
 
 clone the repository
 
-`git clone --single-branch -b initial git@github.com:techwithtwin/prisma-tutorial-nextjs.git`
+`git clone --single-branch -b initial git@github.com:techwithtwin/dev-portfolio.git`
 
 ### Install the dependencies
 `pnpm i ` if using pnpm or `yarn` or `npm i`
